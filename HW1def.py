@@ -20,7 +20,9 @@ def diagnostic_plots(df, variable:str):
 def checkCorrFF(df):
     plt.figure(figsize=(15,10))
     cor = df.corr()
-    sns.heatmap(cor, annot=True, cmap='inferno')
+    mask = np.zeros_like(cor, dtype=np.bool)
+    mask[np.triu_indices_from(mask)] = True
+    sns.heatmap(cor, annot=True, cmap='inferno', mask=mask)
     plt.show()
     
 def checkCorrFT(df, target):
