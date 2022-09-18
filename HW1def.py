@@ -18,7 +18,7 @@ def diagnostic_plots(df, variable:str):
     plt.show()
     
 def checkCorrFF(df):
-    plt.figure(figsize=(15,10))
+    plt.figure(figsize=(20,10))
     cor = df.corr()
     # mask = np.zeros_like(cor, dtype=np.bool)
     # mask[np.triu_indices_from(mask)] = True
