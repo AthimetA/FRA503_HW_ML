@@ -1,0 +1,131 @@
+Cluster  job                  
+1        high-skill-levels          878
+         middle-skill-levels        720
+         low-None-skill-levels      531
+2        low-None-skill-levels     5410
+         middle-skill-levels       4157
+         high-skill-levels         3357
+3        middle-skill-levels        700
+         high-skill-levels          500
+         low-None-skill-levels      423
+4        middle-skill-levels      10624
+         high-skill-levels         6015
+         low-None-skill-levels     5403
+5        middle-skill-levels       2837
+         low-None-skill-levels     1773
+         high-skill-levels         1681
+Name: job, dtype: int64
+==================================================
+Cluster  marital  
+1        Partnered     1350
+         Alone          779
+2        Partnered     9673
+         Alone         3251
+3        Partnered     1013
+         Alone          610
+4        Partnered    11478
+         Alone        10564
+5        Partnered     3579
+         Alone         2712
+Name: marital, dtype: int64
+==================================================
+Cluster  education
+1        secondary      947
+         tertiary       899
+         primary        283
+2        secondary     6650
+         primary       3191
+         tertiary      3083
+3        secondary      868
+         tertiary       516
+         primary        239
+4        secondary    12877
+         tertiary      6846
+         primary       2319
+5        secondary     3644
+         tertiary      1846
+         primary        801
+Name: education, dtype: int64
+==================================================
+Cluster  default
+1        no          2127
+         yes            2
+2        no         12687
+         yes          237
+3        no          1578
+         yes           45
+4        no         21571
+         yes          471
+5        no          6238
+         yes           53
+Name: default, dtype: int64
+==================================================
+Cluster  housing
+1        no          1175
+         yes          954
+2        no          8093
+         yes         4831
+3        yes          849
+         no           774
+4        yes        13917
+         no          8125
+5        yes         4497
+         no          1794
+Name: housing, dtype: int64
+==================================================
+Cluster  loan
+1        no       1974
+         yes       155
+2        no      10771
+         yes      2153
+3        no       1335
+         yes       288
+4        no      18345
+         yes      3697
+5        no       5354
+         yes       937
+Name: loan, dtype: int64
+==================================================
+Cluster  contact
+1        phone       1578
+         unknown      551
+2        phone       8810
+         unknown     4114
+3        phone       1058
+         unknown      565
+4        phone      14332
+         unknown     7710
+5        phone       6234
+         unknown       57
+Name: contact, dtype: int64
+==================================================
+Cluster  poutcome
+1        unknown      1868
+         failure       176
+         success        85
+2        unknown     12312
+         failure       319
+         success       293
+3        unknown      1619
+         failure         4
+4        unknown     21472
+         failure       319
+         success       251
+5        failure      4021
+         unknown      1400
+         success       870
+Name: poutcome, dtype: int64
+==================================================
+Cluster  y  
+1        no      1819
+         yes      310
+2        no     11495
+         yes     1429
+3        no      1555
+         yes       68
+4        no     19845
+         yes     2197
+5        no      5044
+         yes     1247
+Name: y, dtype: int64
+==================================================
