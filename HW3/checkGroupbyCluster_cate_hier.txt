@@ -1,145 +1,87 @@
-Cluster  job
-1        1      4230
-         0      3991
-         2      2301
-2        1      6688
-         2      4356
-         0      3264
-3        1      3080
-         0      1969
-         2      1709
-4        1      5085
-         0      4353
-         2      4147
+Cluster  job                  
+1        middle-skill-levels       3424
+         low-None-skill-levels     2253
+         high-skill-levels         2174
+2        middle-skill-levels        302
+         low-None-skill-levels      257
+         high-skill-levels          249
+3        middle-skill-levels      15312
+         low-None-skill-levels    11030
+         high-skill-levels        10008
 Name: job, dtype: int64
 ==================================================
-Cluster  marital
-1        1           6475
-         0           4047
-2        0          11559
-         1           2749
-3        1           4389
-         0           2369
-4        1          13585
+Cluster  marital  
+1        Partnered     4500
+         Alone         3351
+2        Partnered      444
+         Alone          364
+3        Partnered    22149
+         Alone        14201
 Name: marital, dtype: int64
 ==================================================
 Cluster  education
-1        1            5617
-         0            2781
-         2            2124
-2        1            6993
-         2            5444
-         0            1871
-3        1            4007
-         2            1653
-         0            1098
-4        1            6569
-         2            4064
-         0            2952
+1        secondary     4370
+         tertiary      2499
+         primary        982
+2        secondary      488
+         tertiary       194
+         primary        126
+3        secondary    20128
+         tertiary     10497
+         primary       5725
 Name: education, dtype: int64
 ==================================================
 Cluster  default
-1        0          10333
-         1            189
-2        0          14130
-         1            178
-3        0           6472
-         1            286
-4        0          13423
-         1            162
+1        no          7851
+2        yes          808
+3        no         36350
 Name: default, dtype: int64
 ==================================================
 Cluster  housing
-1        1          7509
-         0          3013
-2        0          7757
-         1          6551
-3        1          4100
-         0          2658
-4        1          6958
-         0          6627
+1        yes         4945
+         no          2906
+2        yes          430
+         no           378
+3        yes        19673
+         no         16677
 Name: housing, dtype: int64
 ==================================================
 Cluster  loan
-1        0       10522
-2        0       13825
-         1         483
-3        1        6758
-4        0       13585
+1        no       6801
+         yes      1050
+2        no        511
+         yes       297
+3        no      30467
+         yes      5883
 Name: loan, dtype: int64
 ==================================================
 Cluster  contact
-1        0          10522
-2        1          13778
-         0            530
-3        1           4796
-         0           1962
-4        1          13585
+1        phone       7784
+         unknown       67
+2        phone        521
+         unknown      287
+3        phone      23707
+         unknown    12643
 Name: contact, dtype: int64
 ==================================================
-Cluster  month
-1        4        6554
-         5        3677
-         6         131
-         8          40
-         7          38
-         10         31
-         9          29
-         1           8
-         0           7
-         2           3
-         11          3
-         3           1
-2        4        3029
-         7        2310
-         6        2097
-         10       1434
-         3        1365
-         1        1326
-         5         754
-         0         676
-         9         458
-         8         368
-         2         343
-         11        148
-3        6        1974
-         4        1883
-         5         685
-         10        683
-         7         571
-         1         361
-         3         322
-         0         203
-         9          33
-         8          20
-         2          15
-         11          8
-4        7        3316
-         6        2687
-         4        2295
-         10       1820
-         3        1243
-         1         953
-         0         516
-         5         223
-         9         216
-         8         146
-         2         116
-         11         54
-Name: month, dtype: int64
-==================================================
 Cluster  poutcome
-1        0           10493
-         1              21
-         2               8
-2        0           11025
-         1            2086
-         2            1197
-3        0            6004
-         1             716
-         2              38
-4        0           11243
-         1            2076
-         2             266
+1        failure      4790
+         unknown      1571
+         success      1490
+2        unknown       767
+         failure        39
+         success         2
+3        unknown     36333
+         failure        10
+         success         7
 Name: poutcome, dtype: int64
+==================================================
+Cluster  y  
+1        no      6022
+         yes     1829
+2        no       756
+         yes       52
+3        no     32980
+         yes     3370
+Name: y, dtype: int64
 ==================================================
