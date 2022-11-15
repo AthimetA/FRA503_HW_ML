@@ -1,0 +1,68 @@
+Cluster  job                  
+1        middle-skill-levels       3424
+         low-None-skill-levels     2253
+         high-skill-levels         2174
+2        middle-skill-levels      15614
+         low-None-skill-levels    11287
+         high-skill-levels        10257
+Name: job, dtype: int64
+==================================================
+Cluster  marital  
+1        Partnered     4500
+         Alone         3351
+2        Partnered    22593
+         Alone        14565
+Name: marital, dtype: int64
+==================================================
+Cluster  education
+1        secondary     4370
+         tertiary      2499
+         primary        982
+2        secondary    20616
+         tertiary     10691
+         primary       5851
+Name: education, dtype: int64
+==================================================
+Cluster  default
+1        no          7851
+2        no         36350
+         yes          808
+Name: default, dtype: int64
+==================================================
+Cluster  housing
+1        yes         4945
+         no          2906
+2        yes        20103
+         no         17055
+Name: housing, dtype: int64
+==================================================
+Cluster  loan
+1        no       6801
+         yes      1050
+2        no      30978
+         yes      6180
+Name: loan, dtype: int64
+==================================================
+Cluster  contact
+1        phone       7784
+         unknown       67
+2        phone      24228
+         unknown    12930
+Name: contact, dtype: int64
+==================================================
+Cluster  poutcome
+1        failure      4790
+         unknown      1571
+         success      1490
+2        unknown     37100
+         failure        49
+         success         9
+Name: poutcome, dtype: int64
+==================================================
+Cluster  y  
+1        no      6022
+         yes     1829
+2        no     33736
+         yes     3422
+Name: y, dtype: int64
+==================================================
